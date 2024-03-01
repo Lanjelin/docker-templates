@@ -25,7 +25,7 @@ Current Optional Content Compatible ROMS: Fire Red, Emerald, Platinum, HeartGold
   <Category>Other:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Lanjelin/docker-templates/main/lanjelin/pokemmo.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/Lanjelin/docker-templates/main/lanjelin/images/astronvim.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Lanjelin/docker-templates/main/lanjelin/images/pokemmo.png</Icon>
   <ExtraParams>--shm-size=1gb</ExtraParams>
   <PostArgs/>
   <Requires>
