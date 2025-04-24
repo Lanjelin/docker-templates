@@ -26,8 +26,8 @@ Failure to practice proper security could lead to exposure of your vault.
   <ExtraParams>--shm-size=1gb</ExtraParams>
   <PostArgs/>
   <Requires/>
-  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="PokeMMO GUI." Type="Port" Display="always" Required="true" Mask="false">3000</Config>
-  <Config Name="WebUI HTTPS" Target="3001" Default="3001" Mode="tcp" Description="PokeMMO GUI HTTPS." Type="Port" Display="always" Required="true" Mask="false">3001</Config>
+  <Config Name="WebUI" Target="3000" Default="3000" Mode="tcp" Description="GUI." Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+  <Config Name="WebUI HTTPS" Target="3001" Default="3001" Mode="tcp" Description="GUI HTTPS." Type="Port" Display="always" Required="true" Mask="false">3001</Config>
   <Config Name="Enable GPU Acceleration " Target="" Default="" Mode="" Description="DRI3 GPU Acceleration" Type="Device" Display="always" Required="false" Mask="false">/dev/dri:/dev/dri</Config>
   <Config Name="Specify GPU device" Target="DRINODE" Default="/dev/dri/renderD128" Mode="" Description="If mounting in /dev/dri for DRI3 GPU Acceleration allows you to specify the device to use IE /dev/dri/renderD128" Type="Variable" Display="always" Required="false" Mask="false">/dev/dri/renderD128</Config>
   <Config Name="Vault Storage" Target="/config/obsidian" Default="/mnt/user/appdata/obsidian" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/obsidian</Config>
